@@ -1,0 +1,73 @@
+Added vertext: first
+Graph size after add: 1
+ 
+Added vertext: second
+Graph size after add: 2
+ 
+Error: Vertex 'second' already exists! 
+Graph size after duplicate test: 2
+ 
+Added vertext: third
+Graph size after add: 3
+ 
+Added vertext: 4th
+Graph size after add: 4
+ 
+Added vertext: 5th
+Graph size after add: 5
+ 
+Added vertext: 6th
+Graph size after add: 6
+ 
+Added vertext: 7th
+Graph size after add: 7
+ 
+Added vertext: 8th
+Graph size after add: 8
+ 
+New Edge: first--->second
+ 
+New Edge: second--->first
+ 
+New Edge: second--->4th
+ 
+New Edge: first--->third
+ 
+New Edge: first--->first
+ 
+New Edge: first--->4th
+ 
+first Edges: 
+1.   first--0.2-->second
+2.   first--9-->third
+3.   first--1-->first
+4.   first--1886-->4th
+
+Updating Edge: first--->second
+ 
+first Edges: 
+1.   first--6-->second
+2.   first--9-->third
+3.   first--1-->first
+4.   first--1886-->4th
+
+Vertices: first second third 4th 5th 6th 7th 8th 
+ 
+Removing Vertex: first
+Removing Edge: first--1->first
+Removing Edge: second--5->first
+Vertices left after remove: 7
+ 
+Vertices: second third 4th 5th 6th 7th 8th 
+ 
+second Edges: 
+1.   second--5-->4th
+
+Removing Vertex: second
+Vertices left after remove: 6
+ 
+Removing Vertex: third
+Vertices left after remove: 5
+ 
+Vertices: 4th 5th 6th 7th 8th 
+ 
