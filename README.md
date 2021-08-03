@@ -7,11 +7,11 @@ The graph structure is built as follows:
 
 					Vertex
 					  |
-				    v
+				    	  v
 					  A				B		C		D		<- vector<Vertex>
 				/			\
-		vector<Edge>		vertexName
+		   	 vector<Edge>		    vertexName
 				|
 				v
-	Edge->(destination, weight)
-			 (A, 0.7)
+		Edge->(destination, weight)
+			     (A, 0.7)
