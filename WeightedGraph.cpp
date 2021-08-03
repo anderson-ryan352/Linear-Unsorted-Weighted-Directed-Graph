@@ -144,7 +144,7 @@ vector<Vertex> removeEdge(vector<Vertex> graph, string originVert, string destVe
 }
 
 //Adds vertext vertName to graph structure. Verifies vertName does not already exist.
-//O(n) where n = number of vertices (only if it searches)
+//O(n) where n = number of vertices
 vector<Vertex> addVertex(vector<Vertex> graph, string vertName) {
 	vector<Edge> edgeList;
 	Vertex * nextVert = new Vertex(vertName,edgeList);//Creates new vertex
