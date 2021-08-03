@@ -45,7 +45,7 @@ vector<Vertex> addVertex(vector<Vertex> graph, string vertName)
 	
 	-Adds vertext vertName to graph structure. Verifies vertName does not already exist.
 	
-	-O(n) where n = number of vertices (only if it searches)
+	-O(n) where n = number of vertices
 	
 #	
 vector<Vertex> removeVertex(vector<Vertex> graph, string vertName)
