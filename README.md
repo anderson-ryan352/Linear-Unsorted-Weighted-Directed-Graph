@@ -26,7 +26,7 @@ Vertex: string originName, vector<Edges> EdgeList
 #	
 addEdge(vector<Vertex> graph, string originVert, double edgeWeight, string destVert)
 	
-	-Adds edge to graph
+	-Adds edge to graph; Update edge if it already exists
 	
 	-Linearly searches vertices, edgelist of vertice
 	
